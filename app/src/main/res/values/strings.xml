@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Chronometer</string>
+    <string name="negative_duration">NegativeDuration</string>
 </resources>
