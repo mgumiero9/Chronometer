@@ -15,7 +15,7 @@
         />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/buttonStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Start"
@@ -24,7 +24,7 @@
         />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonStop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stop"
