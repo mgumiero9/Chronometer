@@ -31,5 +31,30 @@
         android:onClick="stopChronometer"
         android:layout_gravity="center"
         />
+    <Button
+        android:id="@+id/buttonRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart"
+        android:onClick="startChronometer"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/buttonSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set"
+        android:onClick="stopChronometer"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:onClick="startChronometer"
+        android:layout_gravity="center"
+        />
 
 </LinearLayout>
