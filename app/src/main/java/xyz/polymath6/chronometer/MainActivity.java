@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
 
-                focus.start();
+                myFocus.start();
             }
         });
 
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
 
-                focus.stop();
+                myFocus.stop();
             }
         });
 
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
 
-                focus.setBase(SystemClock.elapsedRealtime());
+                myFocus.setBase(SystemClock.elapsedRealtime());
             }
         });
 
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
 
-                focus.setFormat("Formated Time - %s");
+                myFocus.setFormat("Formated Time - %s");
             }
         });
 
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
 
-                focus.setFormat(null);
+                myFocus.setFormat(null);
             }
         });
     }
